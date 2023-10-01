@@ -1,0 +1,84 @@
+.content {
+  z-index: 1;
+
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  max-width: 380px;
+  margin-left: 120px;
+}
+
+.content .logo {
+  width: 232px;
+  height: 100px;
+
+  margin-bottom: 32px;
+
+  background-image: url("../images/logo-bleach.png");
+  background-size: cover;
+}
+
+.content .name {
+  margin-bottom: 20px;
+
+  color: #fff;
+  font-family: "Secular One";
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.content .description {
+  color: #fff;
+  font-family: "Rubik";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Responsividade */
+
+@media (max-width: 769px) {
+  .content {
+    justify-content: flex-start;
+
+    margin-top: 68px;
+    margin-left: 0;
+    padding: 32px;
+
+    max-width: 100vw;
+  }
+
+  .content .name {
+    font-size: 32px;
+  }
+
+  .content .description {
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 425px) {
+  .content {
+    margin-top: 56%;
+    padding: 28px;
+  }
+
+  .content .logo {
+    width: 178px;
+    height: 80px;
+  }
+
+  .content .name {
+    margin-bottom: 12px;
+
+    font-size: 28px;
+  }
+
+  .content .description {
+    max-width: 100%;
+  }
+}

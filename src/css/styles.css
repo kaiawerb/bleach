@@ -1,0 +1,19 @@
+main::after{
+    position: fixed;
+    inset: 0;
+
+    width: 80vw;
+    min-height: 100vh;
+
+    content: "";
+    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+}
+
+/* Responsividade */
+
+@media (max-width: 769px){
+    main::after{
+        background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0) 65%) no-repeat;
+        width: 100vw;
+    }
+}
