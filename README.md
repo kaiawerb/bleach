@@ -14,6 +14,8 @@
 
 <p>O evento oferece insights sobre o mercado de programação e como se inserir nele, um guia de estudos para apoiá-lo e também apresenta a criação de uma página de destino inspirada em Bleach (em vez de One Piece, que é o meu anime favorito e validei meu aprendizado fazendo as mudanças).</p>
 
+OBS: Você pode controlar o volume da música usando o W(Aumentar), S(Diminuir) e Espaço(Pausar/Retomar).
+
 ## 🚀 Tecnologias
 
 * HTML
@@ -23,8 +25,9 @@
 ## 📔 Recursos abordados
 
 * UI/UX
+* Responsividade
+* Aúdio com Javascript
 * Adobe Photoshop(Otimização de Imagens)
-* Lazy loading
 * Uso semântico do HTML e CSS
 * Otimização de Imagens
 * Flexbox
