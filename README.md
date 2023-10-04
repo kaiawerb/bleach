@@ -26,7 +26,7 @@ OBS: Você pode controlar o volume da música usando o W(Aumentar), S(Diminuir) 
 
 * UI/UX
 * Responsividade
-* Aúdio com Javascript
+* Áudio com Javascript
 * Adobe Photoshop(Otimização de Imagens)
 * Uso semântico do HTML e CSS
 * Otimização de Imagens
